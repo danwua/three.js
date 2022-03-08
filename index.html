@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- SCRIPT -->
+        <script type="module">
+
+            // Find the latest version by visiting https://cdn.skypack.dev/three.
+          
+            import * as THREE from 'https://cdn.skypack.dev/three@0.126.1';
+          
+            const scene = new THREE.Scene();
+
+            const camera = new THREE.PerspectiveCamera(90, innerWidth / innerHeight, 0.1, 1000)
+
+            const renderer = new THREE.WebGLRenderer()
+
+            console.log(scene, camera, renderer)
+
+            renderer.setSize(innerWidth, innerHeight)
+            document.body.appendChild(renderer.domElement)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </script>
+
+    </body>
+</html>
